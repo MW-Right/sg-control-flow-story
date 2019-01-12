@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Get to work</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="js/story.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
-    <h1 id="name"></h1>
+    <h1 id="title"></h1>
+    <h2>Section 1 - Getting to the station</h2>
+    <p>You need to be in to Sparta in Richmond by 9:30 for standup otherwise Jack is going to be angry</p>
+    <p>First step is to drive to the station, which usually takes 20 minutes without traffic. Your first train is at 7:25</p>
+    <button type="button" onclick="question1()">When do you leave?"</button>
+    <p>You decided to leave at <span id=leaveTime></span> which means you have <span id="mins"></span> minutes until your train.</p>
+    <p id="missTrain"></p>
+    <a href="html/chapter-2.html">Next Chapter</a>
+    <script src="js/story.js"></script>
 </body>
 </html>
